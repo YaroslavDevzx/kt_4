@@ -339,6 +339,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 120725274}
+  - component: {fileID: 120725275}
   m_Layer: 0
   m_Name: 'Timers '
   m_TagString: Untagged
@@ -361,6 +362,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &120725275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120725273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63f012c993453134f86dd46b3694f92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clocksFill: {fileID: 92057194}
+  clocksAmount: {fileID: 19819068}
+  clocksButton: {fileID: 1551266285}
+  resourceSlider: {fileID: 1095922878}
+  resourceAmount: {fileID: 727625368}
+  firstTimeLimit: 5
+  secondTimeLimit: 3
+  foodReward: 3
+  foodPrice: 5
 --- !u!1 &186106181
 GameObject:
   m_ObjectHideFlags: 0
